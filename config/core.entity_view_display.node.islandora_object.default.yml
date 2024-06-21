@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.islandora_object.field_member_of
+    - field.field.node.islandora_object.field_model
+    - field.field.node.islandora_object.field_weight
+    - node.type.islandora_object
+  module:
+    - user
+id: node.islandora_object.default
+targetEntityType: node
+bundle: islandora_object
+mode: default
+content:
+  field_member_of:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_model:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_weight: true
+  langcode: true
+
