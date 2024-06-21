@@ -1,13 +1,9 @@
 {
-  "name": "islandora/islandora_content_types",
-  "description": "Drupal Recipe to create starter content types for use with descriptive metadata.",
+  "name": "islandora/islandora_repository_item",
+  "description": "Drupal Recipe to create a starter content type for use with islandora.",
   "type": "drupal-recipe",
   "require": {
     "drupal/core": "^10.2 | ^11",
-    "drupal/geolocation": "^3 | ^4.0@alpha",
-    "drupal/controlled_access_terms": "^2.4.1",
-    "drupal/field_group": "^3",
-    "islandora/islandora_metadata_vocabularies": "dev-main",
     "islandora/islandora_vocabularies": "dev-main"
   },
   "suggest": {

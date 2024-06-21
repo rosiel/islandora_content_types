@@ -1,10 +1,5 @@
-name: 'Islandora Content Types'
-description: 'Starter content type and fields to hold descriptive metadata.'
+name: 'Islandora Repository Item'
+description: 'A basic content type to hold islandora objects.'
 type: 'islandora'
 recipes:
   - islandora_vocabularies
-  - islandora_metadata_vocabularies
-install:
-  - controlled_access_terms
-  - field_group
-  - geolocation
